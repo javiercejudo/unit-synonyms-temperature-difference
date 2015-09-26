@@ -1,0 +1,36 @@
+{
+  "name": "unit-synonyms-temperature-difference",
+  "version": "0.0.0",
+  "description": "Temperature difference units synonyms",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiercejudo/unit-synonyms-temperature-difference"
+  },
+  "keywords": [
+    "unit-synonyms",
+    "conversion",
+    "temperature"
+  ],
+  "author": "Javier Cejudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javiercejudo/unit-synonyms-temperature-difference/issues"
+  },
+  "homepage": "https://github.com/javiercejudo/unit-synonyms-temperature-difference",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-mocha": "^2.0.0",
+    "rescale": "^6.1.0",
+    "rimraf": "^2.3.2",
+    "should": "^5.0.0"
+  },
+  "dependencies": {
+    "unit-synonyms-temperature": "^1.0.1"
+  }
+}
